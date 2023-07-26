@@ -41,7 +41,6 @@
 		EA16F44F2A70E73E0010EF92 = {
 			isa = PBXGroup;
 			children = (
-				EA16F4712A70F1930010EF92 /* ContactRow.swift */,
 				EA16F45A2A70E73E0010EF92 /* MushroomKingdom */,
 				EA16F4592A70E73E0010EF92 /* Products */,
 			);
@@ -60,6 +59,7 @@
 			children = (
 				EA16F45B2A70E73E0010EF92 /* MushroomKingdomApp.swift */,
 				EA16F45D2A70E73E0010EF92 /* ContentView.swift */,
+				EA16F4712A70F1930010EF92 /* ContactRow.swift */,
 				EA16F4692A70ED7B0010EF92 /* Contact.swift */,
 				EA16F46B2A70EED50010EF92 /* ModelData.swift */,
 				EA16F45F2A70E7400010EF92 /* Assets.xcassets */,
