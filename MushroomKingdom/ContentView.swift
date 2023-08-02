@@ -13,8 +13,7 @@ struct ContentView: View {
             Image("background")
                 .aspectRatio(contentMode: .fit)
             RoundedRectangle(cornerRadius: 20)
-                .fill(Color(red: 0.9, green: 0.9, blue: 0.9)
-                    .opacity(0.8))
+                .fill(.white.opacity(0.6))
                 .frame(width: 370, height: 750)
             VStack{
                 Text("Contact List")
@@ -22,25 +21,17 @@ struct ContentView: View {
                     List(contacts) {
                         contact in
                         NavigationLink{
-                            
+                            ContactCard(contact: contact)
                         } label: {
                             ContactRow(contact: contact)
                         }
                     }
-                    .background(Color.clear)
                     .background(Image("background"))
                     .frame(width: 300, height: 630)
                 }
                 .frame(width: 350, height: 680)
             }
         }
-//        VStack {
-//            Image(systemName: "globe")
-//                .imageScale(.large)
-//                .foregroundColor(.accentColor)
-//            Text("Hello, world!")
-//        }
-//        .padding()
     }
 }
 

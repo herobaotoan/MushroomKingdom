@@ -1,0 +1,142 @@
+[
+  {
+    "description": "Human plumber who is always ready to save the princess.",
+    "id": 1,
+    "imageName": "mario",
+    "name": "Mario",
+    "coordinates": {
+        "latitude": 40.650002,
+        "longitude": -73.949997
+    }
+  },
+  {
+    "description": "Mario's younger brother, even though he is way taller.",
+    "id": 2,
+    "imageName": "luigi",
+    "name": "Luigi",
+    "coordinates": {
+        "latitude": 40.650002,
+        "longitude": -73.949997
+    }
+  },
+  {
+    "description": "A green dinosaur who was hatches from an egg.",
+    "id": 3,
+    "imageName": "yoshi",
+    "name": "Yoshi",
+    "coordinates": {
+        "latitude": 19.741755,
+        "longitude": -155.844437
+    }
+  },
+  {
+    "description": "The almighty princess who is the leader of the Mushroom Kingdom.",
+    "id": 4,
+    "imageName": "peach",
+    "name": "Peach",
+    "coordinates": {
+        "latitude": 51.501476,
+        "longitude": -0.140634
+    }
+  },
+  {
+    "description": "She is the princess of Sarasaland. She once got kidnapped by aliens!",
+    "id": 5,
+    "imageName": "daisy",
+    "name": "Daisy",
+    "coordinates": {
+        "latitude": 29.97583984489883,
+        "longitude": 31.13135075655586
+    }
+  },
+  {
+    "description": "A fearless citizen of the Mushroom Kingdom.",
+    "id": 6,
+    "imageName": "toad",
+    "name": "Toad",
+    "coordinates": {
+        "latitude": 51.501476,
+        "longitude": -0.140634
+    }
+  },
+  {
+    "description": "A complete opposite version of Mario.",
+    "id": 7,
+    "imageName": "wario",
+    "name": "Wario",
+    "coordinates": {
+        "latitude": -2.163106,
+        "longitude": -55.126648
+    }
+  },
+  {
+    "description": "The only person who did not make it into Super Smash Bros.",
+    "id": 8,
+    "imageName": "waluigi",
+    "name": "Waluigi",
+    "coordinates": {
+        "latitude": 36.188110,
+        "longitude": -115.176468
+    }
+  },
+  {
+    "description": "Fearless, powerful warrior of the Kong Kingdom.",
+    "id": 9,
+    "imageName": "donkey-kong",
+    "name": "Donkey Kong",
+    "coordinates": {
+        "latitude": 32.735316,
+        "longitude": -117.149046
+    }
+  },
+  {
+    "description": "Donkey Kong's best friend, although some may say they are uncle and nephew.",
+    "id": 10,
+    "imageName": "diddy-kong",
+    "name": "Diddy Kong",
+    "coordinates": {
+        "latitude": 32.735316,
+        "longitude": -117.149046
+    }
+  },
+  {
+    "description": "He does not belong here!",
+    "id": 11,
+    "imageName": "sonic",
+    "name": "Sonic the hedgehog",
+    "coordinates": {
+        "latitude": 37.780079,
+        "longitude": -122.420174
+    }
+  },
+  {
+    "description": "Magical princess who has an intimate knowledge of the universe.",
+    "id": 12,
+    "imageName": "rosalina",
+    "name": "Rosalina",
+    "coordinates": {
+        "latitude": 37.263056,
+        "longitude": -115.79302
+    }
+  },
+  {
+    "description": "City mayor, loves music. Donkey Kong once kidnapped her.",
+    "id": 13,
+    "imageName": "pauline",
+    "name": "Pauline",
+    "coordinates": {
+        "latitude": 40.650002,
+        "longitude": -73.949997
+    }
+  },
+  {
+    "description": "Toad's best friend. She is ready to take on any challenge.",
+    "id": 14,
+    "imageName": "toadette",
+    "name": "Toadette",
+    "coordinates": {
+        "latitude": 51.501476,
+        "longitude": -0.140634
+    }
+  }
+]

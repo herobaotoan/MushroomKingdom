@@ -11,9 +11,12 @@
 		EA16F45E2A70E73E0010EF92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16F45D2A70E73E0010EF92 /* ContentView.swift */; };
 		EA16F4602A70E7400010EF92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA16F45F2A70E7400010EF92 /* Assets.xcassets */; };
 		EA16F4632A70E7400010EF92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA16F4622A70E7400010EF92 /* Preview Assets.xcassets */; };
-		EA16F46A2A70ED7B0010EF92 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16F4692A70ED7B0010EF92 /* Contact.swift */; };
 		EA16F46C2A70EED50010EF92 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16F46B2A70EED50010EF92 /* ModelData.swift */; };
 		EA16F4722A70F1930010EF92 /* ContactRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16F4712A70F1930010EF92 /* ContactRow.swift */; };
+		EA4301432A7A228A00648D2B /* contacts.json in Resources */ = {isa = PBXBuildFile; fileRef = EA4301422A7A228A00648D2B /* contacts.json */; };
+		EA4301452A7A22E300648D2B /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4301442A7A22E300648D2B /* Contact.swift */; };
+		EA4301472A7A249A00648D2B /* ContactCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4301462A7A249A00648D2B /* ContactCard.swift */; };
+		EA4301492A7A24C100648D2B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4301482A7A24C100648D2B /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,9 +25,12 @@
 		EA16F45D2A70E73E0010EF92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EA16F45F2A70E7400010EF92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA16F4622A70E7400010EF92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		EA16F4692A70ED7B0010EF92 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		EA16F46B2A70EED50010EF92 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		EA16F4712A70F1930010EF92 /* ContactRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRow.swift; sourceTree = "<group>"; };
+		EA4301422A7A228A00648D2B /* contacts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = contacts.json; sourceTree = "<group>"; };
+		EA4301442A7A22E300648D2B /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		EA4301462A7A249A00648D2B /* ContactCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactCard.swift; sourceTree = "<group>"; };
+		EA4301482A7A24C100648D2B /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +66,9 @@
 				EA16F45B2A70E73E0010EF92 /* MushroomKingdomApp.swift */,
 				EA16F45D2A70E73E0010EF92 /* ContentView.swift */,
 				EA16F4712A70F1930010EF92 /* ContactRow.swift */,
-				EA16F4692A70ED7B0010EF92 /* Contact.swift */,
-				EA16F46B2A70EED50010EF92 /* ModelData.swift */,
+				EA4301462A7A249A00648D2B /* ContactCard.swift */,
+				EA4301482A7A24C100648D2B /* MapView.swift */,
+				EA4301412A7A224300648D2B /* Data */,
 				EA16F45F2A70E7400010EF92 /* Assets.xcassets */,
 				EA16F4612A70E7400010EF92 /* Preview Content */,
 			);
@@ -74,6 +81,16 @@
 				EA16F4622A70E7400010EF92 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EA4301412A7A224300648D2B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EA4301442A7A22E300648D2B /* Contact.swift */,
+				EA16F46B2A70EED50010EF92 /* ModelData.swift */,
+				EA4301422A7A228A00648D2B /* contacts.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA16F4632A70E7400010EF92 /* Preview Assets.xcassets in Resources */,
+				EA4301432A7A228A00648D2B /* contacts.json in Resources */,
 				EA16F4602A70E7400010EF92 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,8 +164,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA16F46A2A70ED7B0010EF92 /* Contact.swift in Sources */,
+				EA4301492A7A24C100648D2B /* MapView.swift in Sources */,
+				EA4301452A7A22E300648D2B /* Contact.swift in Sources */,
 				EA16F4722A70F1930010EF92 /* ContactRow.swift in Sources */,
+				EA4301472A7A249A00648D2B /* ContactCard.swift in Sources */,
 				EA16F46C2A70EED50010EF92 /* ModelData.swift in Sources */,
 				EA16F45E2A70E73E0010EF92 /* ContentView.swift in Sources */,
 				EA16F45C2A70E73E0010EF92 /* MushroomKingdomApp.swift in Sources */,
