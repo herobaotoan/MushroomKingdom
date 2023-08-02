@@ -17,6 +17,7 @@
 		EA4301452A7A22E300648D2B /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4301442A7A22E300648D2B /* Contact.swift */; };
 		EA4301472A7A249A00648D2B /* ContactCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4301462A7A249A00648D2B /* ContactCard.swift */; };
 		EA4301492A7A24C100648D2B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4301482A7A24C100648D2B /* MapView.swift */; };
+		EA4301532A7A33C800648D2B /* KingdomsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4301522A7A33C800648D2B /* KingdomsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		EA4301442A7A22E300648D2B /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		EA4301462A7A249A00648D2B /* ContactCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactCard.swift; sourceTree = "<group>"; };
 		EA4301482A7A24C100648D2B /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		EA4301522A7A33C800648D2B /* KingdomsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingdomsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				EA16F4712A70F1930010EF92 /* ContactRow.swift */,
 				EA4301462A7A249A00648D2B /* ContactCard.swift */,
 				EA4301482A7A24C100648D2B /* MapView.swift */,
+				EA4301522A7A33C800648D2B /* KingdomsView.swift */,
 				EA4301412A7A224300648D2B /* Data */,
 				EA16F45F2A70E7400010EF92 /* Assets.xcassets */,
 				EA16F4612A70E7400010EF92 /* Preview Content */,
@@ -168,6 +171,7 @@
 				EA4301452A7A22E300648D2B /* Contact.swift in Sources */,
 				EA16F4722A70F1930010EF92 /* ContactRow.swift in Sources */,
 				EA4301472A7A249A00648D2B /* ContactCard.swift in Sources */,
+				EA4301532A7A33C800648D2B /* KingdomsView.swift in Sources */,
 				EA16F46C2A70EED50010EF92 /* ModelData.swift in Sources */,
 				EA16F45E2A70E73E0010EF92 /* ContentView.swift in Sources */,
 				EA16F45C2A70E73E0010EF92 /* MushroomKingdomApp.swift in Sources */,

@@ -33,6 +33,7 @@ struct ContactCard: View {
                             .font(.system(size: 40))
                             .bold()
                     }
+                    .frame(width: 350, height: 300)
                 }
                 VStack{
                     Text(contact.description)
