@@ -7,7 +7,8 @@
     "coordinates": {
         "latitude": 40.650002,
         "longitude": -73.949997
-    }
+    },
+    "gameAppearance": ["Donkey Kong", "Super Mario Bros. Series", "Mario & Luigi Series", "Mario Kart Series", "Super Mario Maker", "Mario Party Series", "Super Smash Bros.", "Mario Odyssey", "Super Mario RPG", "Super Mario Wonder"]
   },
   {
     "description": "Mario's younger brother, even though he is way taller.",
@@ -17,7 +18,8 @@
     "coordinates": {
         "latitude": 40.650002,
         "longitude": -73.949997
-    }
+    },
+    "gameAppearance": ["Super Mario Bros. Series", "Luigi's Mansion", "Mario Kart Series", "Mario Party Series","Mario & Luigi Series", "Super Smash Bros.", "New Super Luigi U", "Super Mario Wonder"]
   },
   {
     "description": "A green dinosaur who was hatches from an egg.",
@@ -27,7 +29,8 @@
     "coordinates": {
         "latitude": 19.741755,
         "longitude": -155.844437
-    }
+    },
+    "gameAppearance": ["Super Mario Bros. Series", "Yoshi's Island", "Yoshi's Woolly World", "Yoshi's Crafted World", "Mario Kart Series", "Mario Party Series", "Super Smash Bros.", "Super Mario Wonder"]
   },
   {
     "description": "The almighty princess who is the leader of the Mushroom Kingdom.",
@@ -37,7 +40,8 @@
     "coordinates": {
         "latitude": 51.501476,
         "longitude": -0.140634
-    }
+    },
+    "gameAppearance": ["Super Mario Bros. Series", "Mario & Luigi Series", "Mario Kart Series", "Super Mario Maker", "Mario Party Series", "Super Smash Bros.", "Mario Odyssey", "Super Mario RPG", "Super Mario Wonder"]
   },
   {
     "description": "She is the princess of Sarasaland. She once got kidnapped by aliens!",
@@ -47,7 +51,8 @@
     "coordinates": {
         "latitude": 29.97583984489883,
         "longitude": 31.13135075655586
-    }
+    },
+    "gameAppearance": ["Super Mario Bros. Series", "Mario Kart Series", "Mario Party Series", "Super Smash Bros.", "Super Mario Wonder"]
   },
   {
     "description": "A fearless citizen of the Mushroom Kingdom.",
@@ -57,7 +62,8 @@
     "coordinates": {
         "latitude": 51.501476,
         "longitude": -0.140634
-    }
+    },
+    "gameAppearance": ["Super Mario Bros. Series", "Mario & Luigi Series", "Captain Toad Series", "Mario Kart Series", "Mario Party Series", "Super Smash Bros.", "Mario Odyssey", "Super Mario RPG", "Super Mario Wonder"]
   },
   {
     "description": "A complete opposite version of Mario.",
@@ -67,7 +73,8 @@
     "coordinates": {
         "latitude": -2.163106,
         "longitude": -55.126648
-    }
+    },
+    "gameAppearance": ["Wario's Wood", "Wario Blast Series", "WarioWare Series", "Wario Land", "Mario Kart Series", "Mario Party Series", "Super Smash Bros."]
   },
   {
     "description": "The only person who did not make it into Super Smash Bros.",
@@ -77,7 +84,8 @@
     "coordinates": {
         "latitude": 36.188110,
         "longitude": -115.176468
-    }
+    },
+    "gameAppearance": ["Mario Tennis Series", "Mario Kart Series", "Mario Party Series", "Super Smash Bros."]
   },
   {
     "description": "Fearless, powerful warrior of the Kong Kingdom.",
@@ -87,7 +95,8 @@
     "coordinates": {
         "latitude": 32.735316,
         "longitude": -117.149046
-    }
+    },
+    "gameAppearance": ["Donkey Kong", "Donkey Kong Country Series", "Mario Kart Series", "Mario Party Series", "Super Smash Bros.", "Super Mario RPG"]
   },
   {
     "description": "Donkey Kong's best friend, although some may say they are uncle and nephew.",
@@ -97,7 +106,8 @@
     "coordinates": {
         "latitude": 32.735316,
         "longitude": -117.149046
-    }
+    },
+    "gameAppearance": ["Donkey Kong Country Series", "Mario Kart Series", "Mario Party Series", "Super Smash Bros.", "Super Mario RPG"]
   },
   {
     "description": "He does not belong here!",
@@ -107,7 +117,8 @@
     "coordinates": {
         "latitude": 37.780079,
         "longitude": -122.420174
-    }
+    },
+    "gameAppearance": ["Sonic the Hedgehog Series", "Mario & Sonic Olympic Series", "Sonic Dash", "Sonic Racing", "Sonic Forces", "Sonic Mania", "Sonic Origins", "Sonic Frontiers", "Sonic Superstars"]
   },
   {
     "description": "Magical princess who has an intimate knowledge of the universe.",
@@ -117,7 +128,8 @@
     "coordinates": {
         "latitude": 37.263056,
         "longitude": -115.79302
-    }
+    },
+    "gameAppearance": ["Super Mario Galaxy Series", "Super Mario 3D", "Mario Kart Series", "Mario Party Series", "Super Smash Bros."]
   },
   {
     "description": "City mayor, loves music. Donkey Kong once kidnapped her.",
@@ -127,7 +139,8 @@
     "coordinates": {
         "latitude": 40.650002,
         "longitude": -73.949997
-    }
+    },
+    "gameAppearance": ["Donkey Kong", "Mario Odyssey", "Mario Party Series", "Super Smash Bros.", "Mario Tennis Series"]
   },
   {
     "description": "Toad's best friend. She is ready to take on any challenge.",
@@ -137,6 +150,7 @@
     "coordinates": {
         "latitude": 51.501476,
         "longitude": -0.140634
-    }
+    },
+    "gameAppearance": ["Mario Kart Series", "Mario Party Series", "Super Mario 3D", "Super Mario New WiiU"]
   }
 ]
