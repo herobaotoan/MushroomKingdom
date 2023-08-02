@@ -44,6 +44,13 @@ struct ContactCard: View {
                     Text(contact.description)
                         .font(.system(size:20))
                         .frame(maxWidth: 350)
+                    Spacer()
+                    Text("Games Appearances:")
+                        .font(.system(size:20))
+                        .bold()
+                    List (contact.gameAppearance) { game in 
+                        Text(name)
+                    }
                 }
             }
             .navigationBarTitleDisplayMode(.inline)
