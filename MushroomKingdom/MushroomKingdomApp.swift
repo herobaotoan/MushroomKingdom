@@ -16,7 +16,7 @@ import SwiftUI
 struct MushroomKingdomApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            KingdomsView()
         }
     }
 }

@@ -16,33 +16,29 @@ struct KingdomsView: View {
     @State var active: Bool = true
     var body: some View {
         ZStack {
-            if isWelcomeActive {
+            if active {
                 Image("background")
                 VStack {
                     HStack {
-                        Image("logo")
-                            .aspectRatio(contentMode: .fit)
-                            .clipShape(Circle())
-                            .overlay(Circle().stroke(Color(.red), lineWidth: 6))
                         Text("Mushroom Kingdom")
-                            .font(.system(size: 40))
+                            .font(.system(size: 35))
                             .bold()
                     }
                     Text("MAMMA MIA!")
-                        .font(.system(size: 80))
+                        .font(.system(size: 30))
                         .bold()
                     Button(action: {
                         active = false
                     }, label: {
                         Capsule()
-                        .fill(Color.red.opacity(0.2))
+                        .fill(Color.red.opacity(0.8))
                         .padding(8)
                         .frame(height:80)
-                        .overlay(Text("Get Started")
+                        .overlay(Text("Click here to start")
                             .font(.system(.title3, design: .rounded))
                             .fontWeight(.bold)
                             .foregroundColor(.white))
-                            //TODO: Change color
+                            
                     })
                 }
             } else {

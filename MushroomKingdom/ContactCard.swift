@@ -14,7 +14,8 @@ import SwiftUI
 import CoreLocation
 struct ContactCard: View {
     var contact: Contact
-    
+    var games = ["mario", "luigi"]
+    let strings = ["1234", "5678"]
     var body: some View {
         ZStack {
             Image("background")
@@ -43,14 +44,23 @@ struct ContactCard: View {
                 VStack{
                     Text(contact.description)
                         .font(.system(size:20))
-                        .frame(maxWidth: 350)
+                        .frame(maxWidth: 320)
                     Spacer()
                     Text("Games Appearances:")
                         .font(.system(size:20))
                         .bold()
-                    List (contact.gameAppearance) { game in 
-                        Text(name)
+                    NavigationView {
+                        List(contact.gameAppearance, id: \.self) {
+                            game in
+                            NavigationLink{
+                                
+                            } label: {
+                                Text(game)
+                            }
+                        }
+                        .frame(width: 300, height: 630)
                     }
+                    .frame(width: 350, height: 680)
                 }
             }
             .navigationBarTitleDisplayMode(.inline)
@@ -63,5 +73,6 @@ struct ContactCard: View {
 struct ContactCard_Previews: PreviewProvider {
     static var previews: some View {
         ContactCard(contact: contacts[0])
+        
     }
 }

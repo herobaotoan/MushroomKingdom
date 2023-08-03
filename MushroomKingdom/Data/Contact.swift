@@ -26,7 +26,7 @@ struct Contact: Identifiable, Codable{
     
     var coordinates: Coordinates
     
-    var gameAppearance: [String]()
+    var gameAppearance: [String]
     
     var locationCoordinate: CLLocationCoordinate2D {
         CLLocationCoordinate2D(
